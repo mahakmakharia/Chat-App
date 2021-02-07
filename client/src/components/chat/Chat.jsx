@@ -15,7 +15,7 @@ const Chat = ({ location }) => {
   const [room, setRoom] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://tdd-chat-app.herokuapp.com/";
 
   useEffect(() => {
     const { room, name } = queryString.parse(location.search);
