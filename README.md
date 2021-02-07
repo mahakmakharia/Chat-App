@@ -1,5 +1,5 @@
 # Chat-App
-A group chat-app made using React, Express and Socket.io
+A group chat-app made using React, Express and Socket.io. [View Demo Here](https://chat-app-mm.netlify.app/)
 
 # Setting up Environment
 
